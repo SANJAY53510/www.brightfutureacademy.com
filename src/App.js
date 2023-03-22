@@ -35,7 +35,7 @@ import Footer from './All Componet/Footer.js'
 <Footer/>
 </>
 
-  ) 
+  ) ;
 }
 
 
