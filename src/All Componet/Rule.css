@@ -1,0 +1,117 @@
+.rule{
+    background-color: aqua;
+  padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+.gen{
+    padding-left: 200px;
+    color: navy;
+}
+.list{
+    padding-left: 250px;
+    padding-top: 30px;
+    color: black;
+    width: 70%;
+
+}
+
+
+html{
+    font-size: 100%;
+}
+@media(max-width:1200px){
+    html{
+        font-size: 100%;
+    }  
+}
+
+@media(max-width:768px){
+.head{ 
+padding-left: 80px;
+flex-wrap: wrap;
+}
+.navbar ul{flex-wrap: wrap;}
+.footer1{flex-wrap: wrap;}
+.devlop{flex-wrap: wrap;}
+}
+@media(max-width:540px){
+    .head{ 
+        padding-left: 40px;
+        flex-wrap: wrap;
+        }
+        .navbar ul{flex-wrap: wrap;}
+        .footer1{flex-wrap: wrap;}
+        .devlop{flex-wrap: wrap;}
+        .gen{
+            padding-left: 100px;
+            color: navy;
+            flex-wrap: wrap;
+        }
+        .list{
+            padding-left: 120px;
+            padding-top: 30px;
+            color: black;
+            width: 70%}
+            .contact{margin-top: 20px;}
+            .right{padding-left: 10px;}
+            .devlop{padding-left: 20px;}
+}
+@media(max-width:320px){
+    .head{ 
+        padding-left: 20px;
+        flex-wrap: wrap;
+        }
+        .navbar ul{flex-wrap: wrap;}
+        .footer1{flex-wrap: wrap;}
+        .devlop{flex-wrap: wrap;}
+        .gen{
+            padding-left: 50px;
+            color: navy;
+            flex-wrap: wrap;
+        }
+        .list{
+            padding-left: 60px;
+            padding-top: 30px;
+            color: black;
+            width: 70%}
+            .contact{margin-top: 20px;}
+            .right{padding-left: 10px;}
+            .devlop{padding-left: 20px;}
+}
+
+
+@media(max-width:1433){
+    html{
+        font-size:70%;
+    }
+}
+
+@media(max-width: 650px){
+    .contaier img{
+  display: block;
+     }
+    .contact{
+        margin-top: 30px;
+    }
+}
+@media(max-width:360px){
+
+    .head {
+        display: flex;
+        flex-direction: row;
+        color: blue;
+        padding-left:0px;
+        background-color: aquamarine;
+        padding-bottom: 2.5rem;
+        padding-top: 1.875rem;
+        flex-wrap: wrap;
+    
+    }    .image {
+        margin-top: 0px;
+    padding-left: 0px;
+    }
+    .about p{
+        margin-right: 50px;
+    }
+}

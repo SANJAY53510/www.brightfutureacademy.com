@@ -1,0 +1,180 @@
+.farm{
+    background-color:rgb(121, 157, 235);
+  display:flex;
+  flex-direction:column;
+  padding-top: 50px;;
+  border: 150px solid rgb(16, 16, 71);
+  /* border-left-style: ;
+   border-right-style: ;*/
+   border-top-style: double;
+   border-bottom-style: double;
+  border-inline-color:rgb(20, 35, 68);
+  align-items: center;
+  
+  
+  }
+  .container1{
+  color: black;
+  padding-right: 150px;
+  
+  }
+  .container2{
+   padding-top: 50px;
+   padding-bottom: 50px;
+   
+   }
+  
+  .container2 ol li input{
+       width: 300px;
+       height: 30px;
+       border-radius: 10px;
+  }
+  .container2 ol li select{
+      height: 30px;
+      border-radius: 8px;
+      width: 200px;
+  
+  }
+  
+  
+  
+  
+  .buton{
+      margin-left: 20px;
+      margin-top: 25px;
+      margin-bottom: 80px;
+      width: 250px;
+      height: 40px;
+      border-radius: 20px;
+  }
+  .buton:hover{
+      color: gold;
+      background-color: black;
+  }
+
+  #studentnameError{
+    color: red;
+    margin-top: 8px;
+    margin-bottom: 8px;
+  }
+
+  #fathernameError{
+    color: red;
+    margin-top: 8px;
+    margin-bottom: 8px;
+  }
+
+  #mothernameError{
+    color: red;
+    margin-top: 8px;
+    margin-bottom: 8px;
+  }
+
+  #aadharError{
+    color: red;
+    margin-top: 8px;
+    margin-bottom: 8px;
+  }
+
+  #mobileError{
+    color: red;
+    margin-top: 8px;
+    margin-bottom: 8px;
+  }
+  
+
+
+  /* media query*/
+       
+  html{
+    font-size: 100%;
+}   
+   
+
+
+@media(max-width:1039){
+ html{
+   font-size: 100%;}
+}
+
+@media(max-width:360px)
+{   
+.head {
+    display: flex;
+    flex-direction: row;
+    color: blue;
+    padding-left: 10px;
+    background-color: aquamarine;
+    padding-bottom: 40px;
+    padding-top: 30px;
+    flex-wrap: wrap;
+ }
+ .image {
+    margin-top: 0px;
+    margin-left: 0px;
+}
+.contact{
+    color:blue;
+margin-top: 10px;
+}   
+.container1{
+    color: black;
+    padding-right: 80px;
+    flex-wrap: wrap;
+    
+    }
+    .container2{
+     padding-top: 50px;
+     padding-bottom: 50px;
+     padding-right: 40px;
+     margin-left: 70px;
+     
+     }
+    
+    .container2 ol li input{
+         width: 200px;
+         height: 30px;
+         border-radius: 10px;
+    }
+    .container2 ol li select{
+        height: 30px;
+        border-radius: 8px;
+        width: 100px;
+    
+    }              
+ }
+
+ @media(max-width:1433){
+  html{
+      font-size:70%;
+  }
+}
+
+@media(max-width: 650px){
+  .contaier img{
+display: block;
+   }
+  .contact{
+      margin-top: 30px;
+  }
+}
+@media(max-width:360px){
+
+  .head {
+      display: flex;
+      flex-direction: row;
+      color: blue;
+      padding-left:0px;
+      background-color: aquamarine;
+      padding-bottom: 2.5rem;
+      padding-top: 1.875rem;
+      flex-wrap: wrap;
+  
+  }    .image {
+      margin-top: 0px;
+  padding-left: 0px;
+  }
+  .about p{
+      margin-right: 50px;
+  }
+}

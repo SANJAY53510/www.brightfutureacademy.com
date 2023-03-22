@@ -1,0 +1,96 @@
+.photo {
+
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.125rem auto;
+    width: 100%;
+
+}
+
+.photo img {
+    margin-top: 1.875rem;
+    margin-bottom: 1.875rem;
+    width: 75%;
+}
+
+h3 {
+    color: darkblue;
+    background-color: aqua;
+    padding-left: 9.375rem; 
+    padding-top: 3.125rem;
+}
+
+.about{
+    background-color: aqua;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-left:9.375rem;
+    padding-right: 7.5rem;
+    padding-top: 1.875rem;
+    padding-bottom: 1.875rem;
+}
+
+.about p {
+    margin-right: 6.5rem;
+    padding-left: 0rem;
+    
+}
+
+.pic{
+    text-align: center;
+    color: blue;
+}
+.staff {
+    background-color: lightskyblue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 3.25rem;
+    padding-bottom: 3.25rem;
+    flex-wrap: wrap;
+    text-align: center;
+    color:navy;
+    
+}
+
+.contaier img{
+      width: 100%;
+}
+
+@media(max-width:1433){
+    html{
+        font-size:70%;
+    }
+}
+
+@media(max-width: 650px){
+    .contaier img{
+  display: block;
+     }
+    .contact{
+        margin-top: 30px;
+    }
+}
+@media(max-width:360px){
+
+    .head {
+        display: flex;
+        flex-direction: row;
+        color: blue;
+        padding-left:0px;
+        background-color: aquamarine;
+        padding-bottom: 2.5rem;
+        padding-top: 1.875rem;
+        flex-wrap: wrap;
+    
+    }    .image {
+        margin-top: 0px;
+    padding-left: 0px;
+    }
+    .about p{
+        margin-right: 50px;
+    }
+}

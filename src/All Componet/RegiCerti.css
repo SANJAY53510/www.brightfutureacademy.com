@@ -1,0 +1,346 @@
+.regi{
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 18px auto;
+    width: 100%;
+    border: 100px solid black;
+    border-inline-color: gold;
+    
+    border-inline-start-color: #e00472;
+
+
+}
+.regi img{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 70%;
+    border: 100px solid yellow;
+    border-inline-color: green
+}
+
+
+
+html{
+    font-size: 100%;
+}
+@media(max-width:1200px){
+    html{
+        font-size: 100%;
+    }
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    
+    }
+    
+    .head {
+        display: flex;
+        flex-direction: row;
+        color: blue;
+        padding-left: 165px;
+        background-color: aquamarine;
+        padding-bottom: 40px;
+        padding-top: 30px;
+        
+    }
+    
+    .image {
+        margin-top: 0px;
+    
+    }
+    
+    .navbar {
+        background-color:  rgb(121, 157, 235);
+    
+    }
+    
+    .navbar ul {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: 150px;
+    }
+    
+    .navbar ul li {
+        padding: 12px;
+        color: darkblue;
+        padding: 10px;
+        margin: 16px;
+        list-style-type: none;
+        
+    }
+    
+    
+    .navbar ul li:hover {
+        color: black;
+        background-color: gold;
+    
+    }
+    .regi{
+        background-color: blue;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 18px auto;
+        width: 100%;
+        border: 100px solid black;
+        border-inline-color: gold;
+        
+        border-inline-start-color: #e00472;
+    
+    
+    }
+    .regi img{
+        margin-top: 30px;
+        margin-bottom: 30px;
+        width: 70%;
+        border: 100px solid yellow;
+        border-inline-color: green
+    }
+    
+    .footer1{ 
+        display:flex;
+        flex-direction:row;
+        justify-content: space-evenly;
+        padding-bottom: 100px;
+        padding-top: 50px;
+        text-align:center;
+        background-color:#1E2228;
+     }
+    .footer2{
+        color: yellow;
+     
+    }
+    .importent{
+        color: green;
+    }
+    .contact{
+        color:blue
+    }
+    .devlop{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        background-color:#000000 ;
+        padding-top: 20px;
+        padding-bottom: 70px;
+        color: white;
+    
+    }
+    .right{
+        color: #e00472;
+    }
+    .aggarwal{
+        color: #e00472; ;
+    }
+    a{ 
+    text-decoration: none;
+    color: darkblue;
+    }
+    .importent a{
+    color: green;
+    }
+}
+@media(max-width:768px){
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    
+    }
+    
+    .head {
+        display: flex;
+        flex-direction: row;
+        color: blue;
+        padding-left: 80px;
+        background-color: aquamarine;
+        padding-bottom: 40px;
+        padding-top: 30px;
+        flex-wrap: wrap;
+        
+    }
+    
+    .image {
+        margin-top: 0px;
+    
+    }
+    
+    .navbar {
+        background-color:  rgb(121, 157, 235);
+    
+    }
+    
+    .navbar ul {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: 150px;
+        flex-wrap: wrap;
+    }
+    
+    .navbar ul li {
+        padding: 12px;
+        color: darkblue;
+        padding: 10px;
+        margin: 16px;
+        list-style-type: none;
+        
+    }
+    
+    
+    .navbar ul li:hover {
+        color: black;
+        background-color: gold;
+    
+    }
+    .regi{
+        background-color: blue;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 18px auto;
+        width: 100%;
+        border: 80px solid black;
+        border-inline-color: gold;
+        border-inline-start-color: #e00472;
+    
+    
+    }
+    .regi img{
+        margin-top: 30px;
+        margin-bottom: 30px;
+        width: 70%;
+        border: 60px solid yellow;
+        border-inline-color: green
+    }
+    
+    .footer1{ 
+        display:flex;
+        flex-direction:row;
+        justify-content: space-evenly;
+        padding-bottom: 100px;
+        padding-top: 50px;
+        text-align:center;
+        background-color:#1E2228;
+        flex-wrap: wrap;
+     }
+    .footer2{
+        color: yellow;
+     
+    }
+    .importent{
+        color: green;
+    }
+    .contact{
+        color:blue
+    }
+    .devlop{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        background-color:#000000 ;
+        padding-top: 20px;
+        padding-bottom: 70px;
+        color: white;
+        flex-wrap: wrap;
+    
+    }
+    .right{
+        color: #e00472;
+    }
+    .aggarwal{
+        color: #e00472; ;
+    }
+    a{ 
+    text-decoration: none;
+    color: darkblue;
+    }
+    .importent a{
+    color: green;
+    }
+}
+@media(max-width:540px){
+    .regi{
+        background-color: blue;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 18px auto;
+        width: 100%;
+        border: 40px solid black;
+        border-inline-color: gold;
+        border-inline-start-color: #e00472;
+    }
+    
+    .regi img{
+        margin-top: 30px;
+        margin-bottom: 30px;
+        width: 70%;
+        border: 30px solid yellow;
+        border-inline-color: green
+    }
+    .footer1{flex-wrap: wrap;}
+}
+@media(max-width:320px){
+.head{padding-left: 20px; }
+.regi{
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 18px auto;
+    width: 100%;
+    border: 20px solid black;
+    border-inline-color: gold;
+    border-inline-start-color: #e00472;
+}
+
+.regi img{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 70%;
+    border: 15px solid yellow;
+    border-inline-color: green
+}
+.footer1{flex-wrap: wrap;}
+}
+
+
+@media(max-width:1433){
+    html{
+        font-size:70%;
+    }
+}
+
+@media(max-width: 650px){
+    .contaier img{
+  display: block;
+     }
+    .contact{
+        margin-top: 30px;
+    }
+}
+@media(max-width:360px){
+
+    .head {
+        display: flex;
+        flex-direction: row;
+        color: blue;
+        padding-left:0px;
+        background-color: aquamarine;
+        padding-bottom: 2.5rem;
+        padding-top: 1.875rem;
+        flex-wrap: wrap;
+    
+    }    .image {
+        margin-top: 0px;
+    padding-left: 0px;
+    }
+    .about p{
+        margin-right: 50px;
+    }
+}
